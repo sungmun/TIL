@@ -18,8 +18,10 @@
 - NodeJs        [2018-04-11. NodeJs의 기본 정보](/NodeJs/2018-04-11-NodeJsStart.md)
 - Basic         [2018-04-12. VirtualBox란?](/Basic/2018-04-12-VirtualBox.md)
 - Basic         [2018-04-13. Vagrant란?](/Basic/2018-04-13-Vagrant.md)
-- JavaScript    [2018-04-13. JavaScrip문법](/JavaScript/2018-04-14-JavaScriptGrammar.md)
+- JavaScript    [2018-04-14. JavaScrip문법](/JavaScript/2018-04-14-JavaScriptGrammar.md)
 
 ## 예전에 배운것들
 
 - Java [2018-04-08. 객체란?](/Java/2018-04-08-객체란.md)
+- Java [2018-04-15. 상속](/Java/2018-04-15-상속.md)
+- Java [2018-04-16. 오버라이딩과오버로딩](/Java/2018-04-16-오버라이딩과오버로딩.md)
