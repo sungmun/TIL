@@ -16,3 +16,27 @@ NodeJs는 Non-blocking I/O와 단일 스레드 이벤트 루프를 통한 높은
 - npm은 세계에서 가장 큰 오픈소스 라이브러리이다.
 - Front-End관련 개발자들이 접근하기 쉬운 Back-End언어
 - MIT 라이선스이다
+
+## 설치법
+
+- Windows
+  - Windows에서의 설치방법은 [node공식 사이트](https://nodejs.org/ko/download/)에서 다운을 받고 설치를 하면 끝이다.
+- Mac
+  - 공식사이트에서 다운을 받는 방법과 nvm을 통해서 다운을 받는 방법이 있는데 여기에서는 nvm을 통해서 다운을 받는 방법을 설명할 것이다.
+  - 일단 터미널에 이와 같은 명령어를 입력하여 nvm(Node Version Manager)을 설치한다
+  ```
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash
+  ```
+  - 그리고 터미널을 다시 시작한다.
+  - node를 다운 받는다
+    - 이때 최신중에 가장 안정된것을 다운 받으려면 아래와 같은 명령어를 입력하면 된다
+    ```
+    nvm install stable
+    ```
+    - 원하는 특정한 버전이 있으면 아래와 같이 입력을 하면 된다(예. 10.0.0)
+    ```
+    nvm install v10.0.0
+    ```
+
+- Linux
+  -Linux는 너무나도 다양한 버전이 있어 [git](https://github.com/nodesource/distributions)을 보면 자세히 나오니 찾아서 하면된다
