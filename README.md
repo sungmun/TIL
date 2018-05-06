@@ -4,6 +4,7 @@
 
 ## 종류
 
+- BookReport
 - ProgramingBasic
 - Java
 - Java - JavaServerPage
@@ -15,6 +16,8 @@
 
 ## 오늘 배운 것들
 
+- BookReport
+  - [2018-05-06. 완공](/BookReport/2018-05-06.완공.md)
 - ProgramingBasic
   - [2018-04-12. VirtualBox란?](/Basic/2018-04-12-VirtualBox.md)
   - [2018-04-13. Vagrant란?](/Basic/2018-04-13-Vagrant.md)
