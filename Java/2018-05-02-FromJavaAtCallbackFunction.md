@@ -13,15 +13,19 @@ example("I","am",function(){
     console.log("seungmun");
 });
 ```
+
 위와 같이 JavaScript에서는 변수와 ```function```를 저장하는 공간에 차이가 없기 때문에, 표시는 다른 변수와 같이 하고 ```function```내에서 실행을 시켜주면 된다. 그리고 사용은 ```function```를 따로 선언하고 해도 되고 그게 귀찮으면 위에서 처럼 ```function```를 통채로 넘겨 줄 수도 있다.
 
 ## Java 에서의 Callback Function
+
 ```java
 public interface CallBackEvent {
-	public void callBackEvent(Object obj); 
+    public void callBackEvent(Object obj);
 }
 ```
+
 위와 같이 ```interface```를 만들어 주고,
+
 ```java
 public class Test {
     public void testMethod1(){
@@ -32,42 +36,44 @@ public class Test {
     }
 }
 ```
-```CallBackEvent interfac```를 매개변수로 가지는 메소드를 지닌 ```class```를 만든다. 그리고 ```event``` ```interface```에 있는 
-```Abstract method```인 ```callBackEvent```를 호출한다. 이때 ```this```를 넘겨주는데 이런식으로 넘겨주면 객체를 넘겨는형식이 된다. 그래서 그 ```class```에 있는 모든 ```method```를 사용이 가능하다.
+
+```CallBackEvent interfac```를 매개변수로 가지는 메소드를 지닌 ```class```를 만든다. 그리고 ```event``` ```interface```에 있는 ```Abstract method```인 ```callBackEvent```를 호출한다. 이때 ```this```를 넘겨주는데 이런식으로 넘겨주면 객체를 넘겨는형식이 된다. 그래서 그 ```class```에 있는 모든 ```method```를 사용이 가능하다.
+
 ```java
 public class MainThread {
-
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         String name="seung mun";
-		Test test=new Test();
+        Test test=new Test();
 
         test.testMethod2(new CallBackEvent() {
-			
-			@Override
-			public void callBackEvent(Object obj) {
-				((Test)obj).testMethod1();
-                 System.out.println("who are you");
-			}
-		});
-	}
-
+            @Override
+            public void callBackEvent(Object obj) {
+                ((Test)obj).testMethod1();
+                System.out.println("who are you");
+            }
+        });
+    }
 }
 ```
+
 이 코드에서 알아야  하는 부분이 있는데 우리가 ```class```를 선언하고 사용을 할때 2개의 명령어를 통합해서 대부분 사용하는데 분리를 하면,
+
 ```java
 Test test=null;
 ```
+
  부분으로 자바의 ```class```를 선언하는 부분과
  ```java
  new Test();
  ```
+
  부분으로 자바의 생성자를 호출 함으로서 객체를 생성하는 부분이다.
  내가 왜 이부분을 알아야 한다고 했냐면, 우리가 자바에서 ```abstract method```가 있는 ```class```나 ```interface```의 객체를 생성하면 ```abstract method```를 채워야 한다. 이 말은 선언까지만 하면 추상메소드를 채울 필요가 없다는 사실이다. 참고로 자바에서는 선언만해도 그 ```class``` 내부에있는 메소드를 사용이 가능하다. 물론 선언만 한 ```class``` 내부에 있는 메소드를 사용하면 ```NullPointerException```이 발생하지만 일단 컴파일러 검사에서는 문제가 없다. 
 
- ## Ramda
+## Ramda
 
  자바에서는 이를 지원하기 위해 자바 8부터 람다식이라는 것을 지원하는데, 위 ```java```에서 사용한 예제를 람다식으로 변경을 해보겠다.
- ```java
+```java
 @FunctionalInterface
 public interface CallBackEvent {
 	public void callBackEvent(Object obj); 
