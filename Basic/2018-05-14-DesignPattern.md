@@ -17,4 +17,33 @@ DesignPattern이란 형식화된 패턴이다. 정도가 가장 정확한 설명
 
 ## Model-View-Controller Pattern
 
-Model-View-Controller Pattern은 줄여서 MVCPattern이라고 하며, 보통 웹에서 많이 쓰이나, 클라이언트에서도 사용이 가능하다. 이 패턴의 핵심은 하나의 프로그램을 Model-View-Controller로 분리를 하여 View에서 Model에 속하는 메소드나 클래스를 호출할 때, Controller를 통해서 호출을 해야하며 Model에서 View에 변경을 주려면, Controller를 통해서 호출을 해야한다. 이러한 방식을 통해 Model에 변경을 줄 때 View에 최소한의 변경을 가하게 해주며, 그 반대의 경우에도 마찬가지로 Model에 적은 변화만 가져오게 된다. 그리고 이때 Model과 Controller와 View의 구분을 제대로 해 주는것이 좋은데 나의 경우는 Model에는 연산작용을 하는 대부분의 클래스가 모여있고, Controller에서는 Model에서 연산을 하고 나온 결과물을 전달을 해 주는 클래스와 결과물을 View에 맞게 변환을 해주는 클래스 그리고 View에서 일어나는 상호작용을 담당하는 Action클래스로 이루어져 있다. 그리고 View에서는 최대한 연산없이 출력만 하는 클래스로만 구성이 되있다.
+```Model-View-Controller Pattern```은 줄여서 ```MVCPattern```이라고 하며, 보통 웹에서 많이 쓰이나, 클라이언트에서도 사용이 가능하다. 이 패턴의 핵심은 하나의 프로그램을 Model-View-Controller로 분리를 하여 View에서 Model에 속하는 메소드나 클래스를 호출할 때, Controller를 통해서 호출을 해야하며 Model에서 View에 변경을 주려면, Controller를 통해서 호출을 해야한다. 이러한 방식을 통해 Model에 변경을 줄 때 View에 최소한의 변경을 가하게 해주며, 그 반대의 경우에도 마찬가지로 Model에 적은 변화만 가져오게 된다. 그리고 이때 Model과 Controller와 View의 구분을 제대로 해 주는것이 좋은데 나의 경우는 Model에는 연산작용을 하는 대부분의 클래스가 모여있고, Controller에서는 Model에서 연산을 하고 나온 결과물을 전달을 해 주는 클래스와 결과물을 View에 맞게 변환을 해주는 클래스 그리고 View에서 일어나는 상호작용을 담당하는 Action클래스로 이루어져 있다. 그리고 View에서는 최대한 연산없이 출력만 하는 클래스로만 구성이 되있다.
+
+## Observer Pattern
+
+```Observer Pattern```은 객체에서 객체로 메세지를 전달을 해주는 패턴으로 주로 Action Listener에서 사용이 된다. 예를 들어 A라는 객체에서 동작이 이루어지면 B라는 객체에 동작이 이루어 졌다는 사실을 전송을 해 줄 수 있다. 이 패턴은 주로 ```MVCPattern```에서 주로 사용이 가능하다.
+
+## ValueObject Pattern
+
+```ValueObject Pattern```은 클래스에 멤버변수는 전부 private로 선언을 해주고 접근은 오로지 set메소드와 get메소드를 통해서 접근을 해주는 패턴이며, 객체를 설계할때 오로지 값을 저장하기 위한 객체로 설계를 한다. 이패턴을 사용함으로서 멤버변수의 접근과 변경을 제어가 가능하게 해준다. 이 패턴을 다른 말로 하면 Bean이라고 한다.
+
+## Single Pattern
+
+```Single Pattern```은 객체를 생성을 할 때, 1개의 객체만 생성을 하도록 제한을 하는 패턴으로, 예를들어 통신프로그래밍을 할 때, 클라이언트 부분에서 서버로 접근을 하는 클래스는 1번만 생성을 해주는 것이 좋기때문에 클라이언트에서 여러번 생성을 하려고 해도 오로지 하나의 객체만 유지를 할 수 있도록 제한을 하는 패턴이다. 예제로는
+
+```java
+public class Example{
+    private static Example instance;
+    private Example(){
+        ....
+    }
+    public static Example getNewInstance(){
+        if(instance==null){
+            instance=new Example();
+        }
+        return instance;
+    }
+}
+```
+
+위와같이 메소드를 선언을 해주면 다른 클래스에서 생성자에 접근이 불가능 해지며, 오로지 생성은 ```getNewInstance()```메소드를 통해서 접근이 가능해진다. 이러한 접근법을 사용하면, ```Example```클래스는 오로지 하나의 객체만 생성이 가능해진다. 그러므로서 메모리를 좀더 효율적으로 사용이 가능해진다.
