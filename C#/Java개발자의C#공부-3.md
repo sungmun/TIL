@@ -195,3 +195,7 @@ del+=new MyDelegate(Calculator.Minus);
 //3번째 방법
 MyDelegate del = (MyDelegate)Delegete.Combine(new MyDelegate(cla.Plus), new MyDelegate(Calculator.Minus));
 ```
+
+## 후기
+
+이번에 부분에서는 Java보다 C#이 좀더 편리한 점에 대해 많이 알게 된것 같다.
