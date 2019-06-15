@@ -42,5 +42,9 @@
   - [2018-04-17. CasperJs사용법 및 주의할점](/NodeJs/2018-04-17_CasperJsManualAndPointsToNote.md)
   - [2018-04-19. Child Process사용법](/NodeJs/2018-04-19_ChildProcessManual.md)
 - JavaScript
+
   - [2018-04-14. JavaScrip문법](/JavaScript/2018-04-14-JavaScriptGrammar.md)
+
+- Linux
+  - [2019-06-15. localeError해결방법](/Linux/LocaleError.md)
 - ETC
