@@ -49,3 +49,4 @@
 - Linux
   - [2019-06-15. localeError해결방법](/Linux/LocaleError.md)
 - ETC
+  - [2019-08-08. VScode plugin 소개](/plugin/VScode_Plugin.md)
