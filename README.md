@@ -47,6 +47,7 @@
  
 - JavaScript
   - [2018-04-14. JavaScrip문법](/JavaScript/2018-04-14-JavaScriptGrammar.md)
+  - [2018-08-10. TypeScript의 사용법 및 문법](/JavaScript/2018-08-10_TypeScriptGrammar.md)  
 
 - Linux
   - [2019-06-15. localeError해결방법](/Linux/LocaleError.md)
