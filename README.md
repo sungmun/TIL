@@ -44,6 +44,7 @@
     - [2018-08-05. Project의 구조](/NodeJs/Express/2019-08-05_ExpressProject구조.md)
     - [2018-08-07. Error와 Route 처리](/NodeJs/Express/2019-08-07_ErrorAndRoute_Process.md)
     - [2018-08-09. Sequelzie Library의 사용법](/NodeJs/Express/2018-08-09_Sequelize_Library_Directions.md)
+    - [2018-08-11. sequelize-typescript Library의 사용법](/NodeJs/Express/2018-08-11_sequelize-typescript_Library_Directions.md)
  
 - JavaScript
   - [2018-04-14. JavaScrip문법](/JavaScript/2018-04-14-JavaScriptGrammar.md)
