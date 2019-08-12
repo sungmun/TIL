@@ -31,24 +31,32 @@
   - Spring
     - [2018-04-09. 스프링부트 플러그인 파해치기](/Spring/2018-04-09-Spring-Boot-Plugin.md)
 - C#
+
   - [2018-06-24. Java개발자의C#공부-1](/C%23/Java개발자의C%23공부-1.md)
   - [2018-06-25. Java개발자의C#공부-2](/C%23/Java개발자의C%23공부-2.md)
   - [2018-06-26. Java개발자의C#공부-3](/C%23/Java개발자의C%23공부-3.md)
   - [2018-06-26. Java개발자의C#공부-4](/C%23/Java개발자의C%23공부-4.md)
 
 - NodeJs
+
   - [2018-04-11. NodeJs의 기본 정보](/NodeJs/2018-04-11-NodeJsStart.md)
   - [2018-04-17. CasperJs사용법 및 주의할점](/NodeJs/2018-04-17_CasperJsManualAndPointsToNote.md)
   - [2018-04-19. Child Process사용법](/NodeJs/2018-04-19_ChildProcessManual.md)
   - Express
+
     - [2018-08-05. Project의 구조](/NodeJs/Express/2019-08-05_ExpressProject구조.md)
     - [2018-08-07. Error와 Route 처리](/NodeJs/Express/2019-08-07_ErrorAndRoute_Process.md)
-    - [2018-08-09. Sequelzie Library의 사용법](/NodeJs/Express/2018-08-09_Sequelize_Library_Directions.md)
+    - Sequelize_Library_Directions
+
+      - [2018-08-09. Sequelzie Library의 사용법 1](/NodeJs/Express/2018-08-09_Sequelize_Library_Directions_1.md)
+      - [2018-08-12. Sequelzie Library의 사용법 2](/NodeJs/Express/Sequelize_Library_Directions/2018-08-12_Sequelize_Library_Directions_2.md)
+
     - [2018-08-11. sequelize-typescript Library의 사용법](/NodeJs/Express/2018-08-11_sequelize-typescript_Library_Directions.md)
- 
+
 - JavaScript
+
   - [2018-04-14. JavaScrip문법](/JavaScript/2018-04-14-JavaScriptGrammar.md)
-  - [2018-08-10. TypeScript의 사용법 및 문법](/JavaScript/2018-08-10_TypeScriptGrammar.md)  
+  - [2018-08-10. TypeScript의 사용법 및 문법](/JavaScript/2018-08-10_TypeScriptGrammar.md)
 
 - Linux
   - [2019-06-15. localeError해결방법](/Linux/LocaleError.md)
