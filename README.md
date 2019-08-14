@@ -50,6 +50,7 @@
 
       - [2018-08-09. Sequelzie Library의 사용법 1](/NodeJs/Express/2018-08-09_Sequelize_Library_Directions_1.md)
       - [2018-08-12. Sequelzie Library의 사용법 2](/NodeJs/Express/Sequelize_Library_Directions/2018-08-12_Sequelize_Library_Directions_2.md)
+      - [2018-08-14. Sequelzie Library의 사용법 3](/NodeJs/Express/Sequelize_Library_Directions/2018-08-14_Sequelize_Library_Directions_3.md)
 
     - sequelize-typescript_Library_Directions
       - [2018-08-11. sequelize-typescript Library의 사용법 1](/NodeJs/Express/2018-08-11_sequelize-typescript_Library_Directions.md)
