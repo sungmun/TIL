@@ -1,0 +1,863 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2018-08-12. Sequelzie Library의 사용법 2 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2018-08-14_Sequelize_Library_Directions_3.html" />
+    
+    
+    <link rel="prev" href="2018-08-09_Sequelize_Library_Directions_1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../BookReport/">
+            
+                <a href="../../../BookReport/">
+            
+                    
+                    BookReport
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../../BookReport/2018-05-06.완공.html">
+            
+                <a href="../../../BookReport/2018-05-06.완공.html">
+            
+                    
+                    2018-05-06. 완공
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../../Basic/">
+            
+                <a href="../../../Basic/">
+            
+                    
+                    Programing Basic
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../../Basic/2018-04-12-VirtualBox.html">
+            
+                <a href="../../../Basic/2018-04-12-VirtualBox.html">
+            
+                    
+                    2018-04-12. VirtualBox란?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../../Basic/2018-04-13-Vagrant.html">
+            
+                <a href="../../../Basic/2018-04-13-Vagrant.html">
+            
+                    
+                    2018-04-13. Vagrant란?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../../Basic/2018-05-14-DesignPattern.html">
+            
+                <a href="../../../Basic/2018-05-14-DesignPattern.html">
+            
+                    
+                    2018-05-14. 디자인패턴
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../../Java/">
+            
+                <a href="../../../Java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../../Java/2018-04-08-객체란.html">
+            
+                <a href="../../../Java/2018-04-08-객체란.html">
+            
+                    
+                    2018-04-08. 객체란?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../../Java/2018-04-10-Using-Junit.html">
+            
+                <a href="../../../Java/2018-04-10-Using-Junit.html">
+            
+                    
+                    2018-04-10. Junit 사용하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../../Java/2018-04-15-상속.html">
+            
+                <a href="../../../Java/2018-04-15-상속.html">
+            
+                    
+                    2018-04-15. 상속
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../../Java/2018-04-16-오버라이딩과오버로딩.html">
+            
+                <a href="../../../Java/2018-04-16-오버라이딩과오버로딩.html">
+            
+                    
+                    2018-04-16. 오버라이딩과오버로딩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../../Java/2018-05-02-FromJavaAtCallbackFunction.html">
+            
+                <a href="../../../Java/2018-05-02-FromJavaAtCallbackFunction.html">
+            
+                    
+                    2018-05-02. Java에서의 CallBack함수
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../../Java/Spring/">
+            
+                <a href="../../../Java/Spring/">
+            
+                    
+                    Spring
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.6.1" data-path="../../../Java/Spring/2018-04-09-Spring-Boot-Plugin.html">
+            
+                <a href="../../../Java/Spring/2018-04-09-Spring-Boot-Plugin.html">
+            
+                    
+                    2018-04-09. 스프링부트 플러그인 파해치기
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../../C-/">
+            
+                <a href="../../../C-/">
+            
+                    
+                    C#
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../../C-/Java개발자의C-공부-1.html">
+            
+                <a href="../../../C-/Java개발자의C-공부-1.html">
+            
+                    
+                    2018-06-24. Java개발자의C#공부-1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../../C-/Java개발자의C-공부-2.html">
+            
+                <a href="../../../C-/Java개발자의C-공부-2.html">
+            
+                    
+                    2018-06-25. Java개발자의C#공부-2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../../C-/Java개발자의C-공부-3.html">
+            
+                <a href="../../../C-/Java개발자의C-공부-3.html">
+            
+                    
+                    2018-06-26. Java개발자의C#공부-3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../../C-/Java개발자의C-공부-4.html">
+            
+                <a href="../../../C-/Java개발자의C-공부-4.html">
+            
+                    
+                    2018-06-26. Java개발자의C#공부-4
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    NodeJs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../2018-04-11-NodeJsStart.html">
+            
+                <a href="../../2018-04-11-NodeJsStart.html">
+            
+                    
+                    2018-04-11. NodeJs의 기본 정보
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../2018-04-17_CasperJsManualAndPointsToNote.html">
+            
+                <a href="../../2018-04-17_CasperJsManualAndPointsToNote.html">
+            
+                    
+                    2018-04-17. CasperJs사용법 및 주의할점
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../2018-04-19_ChildProcessManual.html">
+            
+                <a href="../../2018-04-19_ChildProcessManual.html">
+            
+                    
+                    2018-04-19. Child Process사용법
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Express
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.4.1" data-path="../2019-08-05_ExpressProject구조.html">
+            
+                <a href="../2019-08-05_ExpressProject구조.html">
+            
+                    
+                    2018-08-05. Project의 구조
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.2" data-path="../2019-08-07_Express_ErrorAndRoute_Process.html">
+            
+                <a href="../2019-08-07_Express_ErrorAndRoute_Process.html">
+            
+                    
+                    2018-08-07. Error와 Route 처리
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Sequelize_Library_Directions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.4.3.1" data-path="2018-08-09_Sequelize_Library_Directions_1.html">
+            
+                <a href="2018-08-09_Sequelize_Library_Directions_1.html">
+            
+                    
+                    2018-08-09. Sequelzie Library의 사용법 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.4.3.2" data-path="2018-08-12_Sequelize_Library_Directions_2.html">
+            
+                <a href="2018-08-12_Sequelize_Library_Directions_2.html">
+            
+                    
+                    2018-08-12. Sequelzie Library의 사용법 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.3.3" data-path="2018-08-14_Sequelize_Library_Directions_3.html">
+            
+                <a href="2018-08-14_Sequelize_Library_Directions_3.html">
+            
+                    
+                    2018-08-14. Sequelzie Library의 사용법 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.4" data-path="../sequelize-typescript_Library_Directions/">
+            
+                <a href="../sequelize-typescript_Library_Directions/">
+            
+                    
+                    sequelize-typescript_Library_Directions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.4.4.1" data-path="../2018-08-11_sequelize-typescript_Library_Directions.md">
+            
+                <span>
+            
+                    
+                    2018-08-11. sequelize-typescript Library의 사용법 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.4.2" data-path="../sequelize-typescript_Library_Directions/2018-08-13_sequelize-typescript_Library_Directions_2.html">
+            
+                <a href="../sequelize-typescript_Library_Directions/2018-08-13_sequelize-typescript_Library_Directions_2.html">
+            
+                    
+                    2018-08-13. sequelize-typescript Library의 사용법 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../../JavaScript/">
+            
+                <a href="../../../JavaScript/">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../../JavaScript/2018-04-14-JavaScriptGrammar.html">
+            
+                <a href="../../../JavaScript/2018-04-14-JavaScriptGrammar.html">
+            
+                    
+                    2018-04-14. JavaScrip문법
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../../JavaScript/2018-08-10_TypeScriptGrammar.html">
+            
+                <a href="../../../JavaScript/2018-08-10_TypeScriptGrammar.html">
+            
+                    
+                    2018-08-10. TypeScript의 사용법 및 문법
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../../Linux/">
+            
+                <a href="../../../Linux/">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../../Linux/LocaleError.html">
+            
+                <a href="../../../Linux/LocaleError.html">
+            
+                    
+                    2019-06-15. localeError해결방법
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../../plugin/">
+            
+                <a href="../../../plugin/">
+            
+                    
+                    ETC
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../../plugin/VScode_Plugin.html">
+            
+                <a href="../../../plugin/VScode_Plugin.html">
+            
+                    
+                    2019-08-08. VScode plugin 소개
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >2018-08-12. Sequelzie Library의 사용법 2</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="sequelize-&#xC0AC;&#xC6A9;&#xBC95;-2">Sequelize &#xC0AC;&#xC6A9;&#xBC95; 2</h1>
+<p>Sequelize&#xC758; &#xC0AC;&#xC6A9;&#xBC95;&#xC911; &#xAC00;&#xC7A5; &#xC911;&#xC694;&#xD55C; &#xC5F0;&#xAD00;&#xAD00;&#xACC4; &#xB9F5;&#xD551;&#xC778; N:M, N:1, 1:1&#xC5D0; &#xB300;&#xD55C; &#xBD80;&#xBD84;&#xC774;&#xB2E4;.</p>
+<p>&#xC6B0;&#xC120; &#xC5F0;&#xAD00;&#xAD00;&#xACC4;&#xB9F5;&#xD551;&#xC740; &#xB450;&#xAC1C;&#xC758; &#xD14C;&#xC774;&#xBE14;&#xC744; &#xC5F0;&#xACB0;&#xC744;&#xD574;&#xC8FC;&#xB294; &#xAC83;&#xC774;&#xB2E4;. &#xC608;&#xB97C; &#xB4E4;&#xBA74; &#xD68C;&#xC0AC;&#xD14C;&#xC774;&#xBE14;&#xACFC; &#xC0AC;&#xC6D0;&#xD14C;&#xC774;&#xBE14;&#xC774; &#xC788;&#xB294;&#xACBD;&#xC6B0; &#xD68C;&#xC0AC;&#xAC00; 1&#xC774;&#xACE0; &#xC0AC;&#xC6D0;&#xC774; N&#xC778; &#xACBD;&#xC6B0;&#xB77C;&#xACE0; &#xBCF4;&#xAC8C; &#xB41C;&#xB2E4;. &#xC65C;&#xB0D0;&#xD558;&#xBA74;, &#xD68C;&#xC0AC;&#xC758; &#xAD00;&#xC810;&#xC5D0;&#xC11C;&#xB294; &#xC0AC;&#xC6D0;&#xC774; &#xC5EC;&#xB7EC;&#xBA85;&#xC774;&#xB2C8; N&#xC774;&#xC9C0;&#xB9CC; &#xC0AC;&#xC6D0;&#xC758; &#xAD00;&#xC810;&#xC5D0;&#xC11C; &#xC790;&#xC2E0;&#xC774; &#xC18C;&#xC18D;&#xB41C; &#xD68C;&#xC0AC;&#xB294; 1&#xAC1C;&#xC774;&#xB2C8; 1&#xC774;&#xB77C;&#xACE0; &#xBCF4;&#xAC8C; &#xB41C;&#xB2E4;. &#xC774;&#xB7F0;&#xC2DD;&#xC73C;&#xB85C; 1:1&#xAD00;&#xACC4;, 1:N&#xAD00;&#xACC4;, N:M&#xAD00;&#xACC4;&#xAE4C;&#xC9C0; &#xB098;&#xB204;&#xC5B4;&#xC11C; &#xBCF4;&#xB294;&#xB370;, ORM&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC9C0; &#xC54A;&#xACE0; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xB294;&#xACBD;&#xC6B0; &#xC678;&#xB798;&#xD0A4;&#xC640; Join&#xC744; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xB9F5;&#xD551;&#xC744; &#xD574;&#xC900;&#xB2E4;.</p>
+<p><img src="https://user-images.githubusercontent.com/15180507/62872876-51957880-bd59-11e9-935e-0127c1225a26.png" width="200" height="200"></p>
+<p>&#xC774;&#xC640; &#xAC19;&#xC740; &#xACBD;&#xC6B0;&#xB97C; &#xC5F0;&#xAD00;&#xAD00;&#xACC4; &#xB9F5;&#xD551;&#xC774;&#xB77C;&#xACE0; &#xD558;&#xBA70;, Sequelize&#xC5D0;&#xC11C;&#xB294; <strong>BelongsTo,HasOne,HasMany,BelongsToMany</strong>&#xC744; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC5F0;&#xAD00;&#xAD00;&#xACC4;&#xB97C; &#xB9F5;&#xD551;&#xD574;&#xC900;&#xB2E4;.</p>
+<p>&#xC5F0;&#xAD00;&#xAD00;&#xACC4;&#xB97C; &#xB9F5;&#xD551;&#xC744; &#xD574;&#xC8FC;&#xBA74;, &#xC5F0;&#xACB0;&#xC774; &#xB418;&#xC788;&#xB294; &#xAD00;&#xACC4;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC;, &#xB2E4;&#xB978; &#xD14C;&#xC774;&#xBE14;&#xC744; &#xAC80;&#xC0C9;&#xD558;&#xAE30;&#xAC00; &#xC26C;&#xC6CC;&#xC9C0;&#xB294; &#xC608;&#xB97C; &#xB4E4;&#xBA74;, &#xC0AC;&#xC6D0;&#xAC12;&#xC744; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xC0AC;&#xC6D0;&#xC774; &#xC18D;&#xD574;&#xC788;&#xB294; &#xD68C;&#xC0AC;&#xC758; &#xAC12;&#xC744; &#xBD88;&#xB7EC;&#xC62C;&#xC218; &#xC788;&#xACE0;, &#xD68C;&#xC0AC;&#xC758; &#xAC12;&#xC744; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xD68C;&#xC0AC;&#xC5D0; &#xC18D;&#xD574;&#xC788;&#xB294; &#xC0AC;&#xC6D0;&#xB4E4;&#xC758; &#xB9AC;&#xC2A4;&#xD2B8;&#xB97C; &#xAD6C;&#xD560;&#xC218;&#xB3C4; &#xC788;&#xC744;&#xAC83;&#xC774;&#xB2E4;.</p>
+<p>&#xC774; &#xC5F0;&#xAD00;&#xAD00;&#xACC4;&#xB294; &#xC55E;&#xC11C; sequelize-cli&#xB97C; &#xD1B5;&#xD558;&#xC5EC; &#xB9CC;&#xB4E0; models&#xD3F4;&#xB354; &#xB0B4;&#xBD80;&#xC5D0;&#xC788;&#xB294; &#xBAA8;&#xB378;&#xC758; &#xCF54;&#xB4DC;&#xB97C; &#xD655;&#xC778;&#xD558;&#xBA74; &#xBAA8;&#xB378;&#xBA85;&#xC774; &#xC788;&#xACE0;, <code>sequelize.defind</code>&#xD568;&#xC218;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xD14C;&#xC774;&#xBE14;&#xC744; &#xC815;&#xC758;&#xD558;&#xACE0; &#xC788;&#xB294;&#xBD80;&#xBD84; &#xADF8;&#xB2E4;&#xC74C;&#xC5D0; &#xD14C;&#xC774;&#xBE14;&#xC744; <code>return</code>&#xD558;&#xACE0; &#xC788;&#xB294; &#xBD80;&#xBD84;&#xC73C;&#xB85C; &#xC774;&#xB8E8;&#xC5B4;&#xC838;&#xC788;&#xB294;&#xB370;, &#xC6B0;&#xB9AC;&#xB294; &#xADF8; &#xC0AC;&#xC774;&#xC5D0; &#xCF54;&#xB4DC;&#xB97C; &#xCD94;&#xAC00;&#xD560; &#xAC83;&#xC774;&#xB2E4;</p>
+<pre><code class="lang-js">model.associate = models =&gt; {
+  ...
+}
+</code></pre>
+<h2 id="belongsto">BelongsTo</h2>
+<p>BelongsTo&#xB294; 1:1&#xAD00;&#xACC4;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xC744; &#xD558;&#xBA70;, &#xB9CC;&#xC57D; &#xC0AC;&#xC6D0;&#xC758; &#xC785;&#xC790;&#xC5D0;&#xC11C;&#xB294; 1:1&#xAD00;&#xACC4;&#xC778; &#xC0AC;&#xC6D0;-&#xD68C;&#xC0AC;&#xB97C; BelongsTo&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC5F0;&#xACB0;&#xC744; &#xD558;&#xBA74;, &#xC0AC;&#xC6D0;&#xD14C;&#xC774;&#xBE14;&#xC5D0; &#xD68C;&#xC0AC;&#xC758; &#xC678;&#xB798;&#xD0A4;&#xAC00; &#xC0DD;&#xC131;&#xC774; &#xB420; &#xAC83;&#xC774;&#xB2E4;.</p>
+<pre><code class="lang-js">&#xC0AC;&#xC6D0;.belongsTo(models.&#xD68C;&#xC0AC;, { foreignKey: <span class="hljs-string">&quot;&#xD68C;&#xC0AC;Id&quot;</span> });
+</code></pre>
+<h2 id="hasone">HasOne</h2>
+<p>HasOne&#xB3C4; 1:1&#xAD00;&#xACC4;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xC744; &#xD558;&#xBA70;, BelongsTo&#xC640; &#xAC19;&#xC740; &#xACB0;&#xACFC;&#xB97C; &#xB0B4;&#xB824;&#xBA74; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xC0DD;&#xC131;&#xD558;&#xBA74; &#xB41C;&#xB2E4;.</p>
+<pre><code class="lang-js">&#xD68C;&#xC0AC;.hasOne(models.&#xC0AC;&#xC6D0;, { foreignKey: <span class="hljs-string">&quot;&#xD68C;&#xC0AC;Id&quot;</span> });
+</code></pre>
+<hr>
+<p>&#xC27D;&#xAC8C; &#xC124;&#xBA85;&#xC744; &#xD558;&#xBA74;, hasOne&#xC740; &#xC5F0;&#xACB0;&#xC744; &#xD558;&#xB294; &#xC0C1;&#xB300; &#xD14C;&#xC774;&#xBE14;&#xC5D0; &#xC678;&#xB798;&#xD0A4;&#xB97C; &#xC0DD;&#xC131;&#xD558;&#xACE0;, belongsTo&#xC5F0;&#xACB0;&#xC744; &#xD558;&#xB294; &#xC0C1;&#xB300;&#xC758; &#xC678;&#xB798;&#xD0A4;&#xB97C; &#xC790;&#xC2E0;&#xC758; &#xD14C;&#xC774;&#xBE14;&#xC5D0; &#xC0DD;&#xC131;&#xC744; &#xD558;&#xB294; &#xCC28;&#xC774;&#xC810;&#xC774; &#xC788;&#xB2E4;. &#xC774;&#xB97C; &#xC774;&#xC6A9;&#xD574;&#xC11C; 1:N&#xAD00;&#xACC4;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xC774; &#xAC00;&#xB2A5;&#xD558;&#xB2E4;.</p>
+<h2 id="hasmany">HasMany</h2>
+<p>HasMany&#xB294; 1:N&#xAD00;&#xACC4;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xD558;&#xBA70;, &#xD68C;&#xC0AC;&#xAC00; 1&#xC774;&#xACE0; &#xC0AC;&#xC6D0;&#xC774; N&#xC774;&#xBBC0;&#xB85C;, &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xC0AC;&#xC6A9;&#xC774; &#xAC00;&#xB2A5;&#xD558;&#xB2E4;.</p>
+<pre><code class="lang-js">&#xD68C;&#xC0AC;.hasMany(models.&#xC0AC;&#xC6D0;, { foreignKey: <span class="hljs-string">&quot;&#xD68C;&#xC0AC;Id&quot;</span> });
+</code></pre>
+<p>hasMany&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xBA74;, &#xD68C;&#xC0AC;&#xC5D0;&#xC11C;&#xB294; &#xC0AC;&#xC6D0;&#xC758; &#xBAA9;&#xB85D;&#xC744; &#xAC80;&#xC0C9;&#xC774; &#xAC00;&#xB2A5;&#xD574;&#xC9C4;&#xB2E4;. &#xBB3C;&#xB860; &#xC0AC;&#xC6D0;&#xC774; &#xD68C;&#xC0AC;&#xB97C; &#xD655;&#xC778;&#xD558;&#xB824;&#xBA74; 1:1&#xC5F0;&#xACB0;&#xC744; &#xD574;&#xC8FC;&#xBA74; &#xB41C;&#xB2E4;.</p>
+<h2 id="belongstomany">belongsToMany</h2>
+<p>N:M&#xAD00;&#xACC4;&#xB294; &#xAD00;&#xACC4;&#xB97C; &#xC800;&#xC7A5;&#xD560; &#xD14C;&#xC774;&#xBE14;&#xC744; &#xB530;&#xB85C; &#xCD94;&#xAC00;&#xB97C; &#xD574;&#xC8FC;&#xBA70;, &#xD14C;&#xC774;&#xBE14;&#xBA85;&#xC744; &#xB530;&#xB85C; &#xCD94;&#xAC00;&#xB97C; &#xD574;&#xC904;&#xC218; &#xC788;&#xB2E4;. &#xC6B0;&#xC120; &#xC608;&#xC81C;&#xB85C; &#xC0AC;&#xC6D0;&#xACFC; &#xC0AC;&#xC6D0;&#xACFC;&#xC758; &#xAD00;&#xACC4;&#xC778; &#xB3D9;&#xB8CC;&#xB77C;&#xB294; &#xAD00;&#xACC4;&#xB97C; &#xCD94;&#xAC00;&#xB97C; &#xD574;&#xC8FC;&#xC5B4; N:M&#xAD00;&#xACC4;&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4; &#xBCF4;&#xACA0;&#xB2E4;.</p>
+<pre><code class="lang-js">&#xC0AC;&#xC6D0;.belongsToMany(&#xC0AC;&#xC6D0;, {
+  <span class="hljs-keyword">as</span>: <span class="hljs-string">&quot;&#xB3D9;&#xB8CC;&#xBAA9;&#xB85D;&quot;</span>,
+  through: <span class="hljs-string">&quot;&#xB3D9;&#xB8CC;&quot;</span>,
+  foreignKey: <span class="hljs-string">&quot;&#xC0AC;&#xC6D0;Id&quot;</span>,
+  otherKey: <span class="hljs-string">&quot;&#xB3D9;&#xB8CC;Id&quot;</span>
+});
+</code></pre>
+<p>&#xC704;&#xC640; &#xAC19;&#xC740; &#xC2DD;&#xC73C;&#xB85C; &#xC791;&#xC131;&#xC744; &#xD558;&#xBA74;, &#xB3D9;&#xB8CC;&#xB77C;&#xB294; &#xD14C;&#xC774;&#xBE14;&#xC774; &#xC0DD;&#xAE38;&#xAC83;&#xC774;&#xBA70;, &#xC778;&#xC790;&#xAC12;&#xC73C;&#xB85C;&#xB294; &#xC0AC;&#xC6D0;Id, &#xB3D9;&#xB8CC;Id&#xC774; &#xC0DD;&#xAE38;&#xAC83;&#xC774;&#xB2E4;.</p>
+<hr>
+<p>&#xC774;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xAD00;&#xACC4;&#xB9F5;&#xD551;&#xC744; &#xC644;&#xB8CC;&#xD558;&#xBA74; sequelize&#xC758; model&#xC815;&#xC758;&#xAC00; &#xC644;&#xC804;&#xD788; &#xB05D;&#xB09C;&#xAC83;&#xC774;&#xBA70;, model&#xAD00;&#xB828;&#xD574;&#xC11C; &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; &#xD560;&#xB9CC;&#xD55C;&#xAC83;&#xC740; hook&#xC815;&#xB3C4;&#xAC00; &#xC788;&#xC73C;&#xB2C8; &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; &#xACF5;&#xBD80;&#xB97C; &#xD558;&#xACE0; &#xC2F6;&#xC73C;&#xBA74; <a href="https://sequelize.org/master/manual/hooks.html" target="_blank">&#xC774;&#xACF3;</a>&#xC5D0;&#xC11C; &#xD655;&#xC778;&#xC744; &#xD558;&#xACE0; &#xACF5;&#xBD80;&#xB97C; &#xD558;&#xBA74; &#xB420;&#xAC83;&#xAC19;&#xB2E4;.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2018-08-09_Sequelize_Library_Directions_1.html" class="navigation navigation-prev " aria-label="Previous page: 2018-08-09. Sequelzie Library의 사용법 1">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2018-08-14_Sequelize_Library_Directions_3.html" class="navigation navigation-next " aria-label="Next page: 2018-08-14. Sequelzie Library의 사용법 3">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2018-08-12. Sequelzie Library의 사용법 2","level":"1.6.4.3.2","depth":4,"next":{"title":"2018-08-14. Sequelzie Library의 사용법 3","level":"1.6.4.3.3","depth":4,"path":"NodeJs/Express/Sequelize_Library_Directions/2018-08-14_Sequelize_Library_Directions_3.md","ref":"NodeJs/Express/Sequelize_Library_Directions/2018-08-14_Sequelize_Library_Directions_3.md","articles":[]},"previous":{"title":"2018-08-09. Sequelzie Library의 사용법 1","level":"1.6.4.3.1","depth":4,"path":"NodeJs/Express/Sequelize_Library_Directions/2018-08-09_Sequelize_Library_Directions_1.md","ref":"NodeJs/Express/Sequelize_Library_Directions/2018-08-09_Sequelize_Library_Directions_1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"NodeJs/Express/Sequelize_Library_Directions/2018-08-12_Sequelize_Library_Directions_2.md","mtime":"2019-08-12T15:21:03.193Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-08T09:45:35.627Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
