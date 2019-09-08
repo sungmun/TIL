@@ -1,0 +1,900 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2018-08-05. Project의 구조 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2019-08-07_Express_ErrorAndRoute_Process.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../BookReport/">
+            
+                <a href="../../BookReport/">
+            
+                    
+                    BookReport
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../BookReport/2018-05-06.완공.html">
+            
+                <a href="../../BookReport/2018-05-06.완공.html">
+            
+                    
+                    2018-05-06. 완공
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../Basic/">
+            
+                <a href="../../Basic/">
+            
+                    
+                    Programing Basic
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../Basic/2018-04-12-VirtualBox.html">
+            
+                <a href="../../Basic/2018-04-12-VirtualBox.html">
+            
+                    
+                    2018-04-12. VirtualBox란?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../Basic/2018-04-13-Vagrant.html">
+            
+                <a href="../../Basic/2018-04-13-Vagrant.html">
+            
+                    
+                    2018-04-13. Vagrant란?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../Basic/2018-05-14-DesignPattern.html">
+            
+                <a href="../../Basic/2018-05-14-DesignPattern.html">
+            
+                    
+                    2018-05-14. 디자인패턴
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../Java/">
+            
+                <a href="../../Java/">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../Java/2018-04-08-객체란.html">
+            
+                <a href="../../Java/2018-04-08-객체란.html">
+            
+                    
+                    2018-04-08. 객체란?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../Java/2018-04-10-Using-Junit.html">
+            
+                <a href="../../Java/2018-04-10-Using-Junit.html">
+            
+                    
+                    2018-04-10. Junit 사용하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../Java/2018-04-15-상속.html">
+            
+                <a href="../../Java/2018-04-15-상속.html">
+            
+                    
+                    2018-04-15. 상속
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../Java/2018-04-16-오버라이딩과오버로딩.html">
+            
+                <a href="../../Java/2018-04-16-오버라이딩과오버로딩.html">
+            
+                    
+                    2018-04-16. 오버라이딩과오버로딩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../Java/2018-05-02-FromJavaAtCallbackFunction.html">
+            
+                <a href="../../Java/2018-05-02-FromJavaAtCallbackFunction.html">
+            
+                    
+                    2018-05-02. Java에서의 CallBack함수
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../Java/Spring/">
+            
+                <a href="../../Java/Spring/">
+            
+                    
+                    Spring
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.6.1" data-path="../../Java/Spring/2018-04-09-Spring-Boot-Plugin.html">
+            
+                <a href="../../Java/Spring/2018-04-09-Spring-Boot-Plugin.html">
+            
+                    
+                    2018-04-09. 스프링부트 플러그인 파해치기
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../C-/">
+            
+                <a href="../../C-/">
+            
+                    
+                    C#
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../C-/Java개발자의C-공부-1.html">
+            
+                <a href="../../C-/Java개발자의C-공부-1.html">
+            
+                    
+                    2018-06-24. Java개발자의C#공부-1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../C-/Java개발자의C-공부-2.html">
+            
+                <a href="../../C-/Java개발자의C-공부-2.html">
+            
+                    
+                    2018-06-25. Java개발자의C#공부-2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../C-/Java개발자의C-공부-3.html">
+            
+                <a href="../../C-/Java개발자의C-공부-3.html">
+            
+                    
+                    2018-06-26. Java개발자의C#공부-3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../C-/Java개발자의C-공부-4.html">
+            
+                <a href="../../C-/Java개발자의C-공부-4.html">
+            
+                    
+                    2018-06-26. Java개발자의C#공부-4
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    NodeJs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../2018-04-11-NodeJsStart.html">
+            
+                <a href="../2018-04-11-NodeJsStart.html">
+            
+                    
+                    2018-04-11. NodeJs의 기본 정보
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../2018-04-17_CasperJsManualAndPointsToNote.html">
+            
+                <a href="../2018-04-17_CasperJsManualAndPointsToNote.html">
+            
+                    
+                    2018-04-17. CasperJs사용법 및 주의할점
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../2018-04-19_ChildProcessManual.html">
+            
+                <a href="../2018-04-19_ChildProcessManual.html">
+            
+                    
+                    2018-04-19. Child Process사용법
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Express
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.6.4.1" data-path="2019-08-05_ExpressProject구조.html">
+            
+                <a href="2019-08-05_ExpressProject구조.html">
+            
+                    
+                    2018-08-05. Project의 구조
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.2" data-path="2019-08-07_Express_ErrorAndRoute_Process.html">
+            
+                <a href="2019-08-07_Express_ErrorAndRoute_Process.html">
+            
+                    
+                    2018-08-07. Error와 Route 처리
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.3" data-path="Sequelize_Library_Directions/">
+            
+                <a href="Sequelize_Library_Directions/">
+            
+                    
+                    Sequelize_Library_Directions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.4.3.1" data-path="Sequelize_Library_Directions/2018-08-09_Sequelize_Library_Directions_1.html">
+            
+                <a href="Sequelize_Library_Directions/2018-08-09_Sequelize_Library_Directions_1.html">
+            
+                    
+                    2018-08-09. Sequelzie Library의 사용법 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.3.2" data-path="Sequelize_Library_Directions/2018-08-12_Sequelize_Library_Directions_2.html">
+            
+                <a href="Sequelize_Library_Directions/2018-08-12_Sequelize_Library_Directions_2.html">
+            
+                    
+                    2018-08-12. Sequelzie Library의 사용법 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.3.3" data-path="Sequelize_Library_Directions/2018-08-14_Sequelize_Library_Directions_3.html">
+            
+                <a href="Sequelize_Library_Directions/2018-08-14_Sequelize_Library_Directions_3.html">
+            
+                    
+                    2018-08-14. Sequelzie Library의 사용법 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.4" data-path="sequelize-typescript_Library_Directions/">
+            
+                <a href="sequelize-typescript_Library_Directions/">
+            
+                    
+                    sequelize-typescript_Library_Directions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.4.4.1" data-path="2018-08-11_sequelize-typescript_Library_Directions.md">
+            
+                <span>
+            
+                    
+                    2018-08-11. sequelize-typescript Library의 사용법 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.4.2" data-path="sequelize-typescript_Library_Directions/2018-08-13_sequelize-typescript_Library_Directions_2.html">
+            
+                <a href="sequelize-typescript_Library_Directions/2018-08-13_sequelize-typescript_Library_Directions_2.html">
+            
+                    
+                    2018-08-13. sequelize-typescript Library의 사용법 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../JavaScript/">
+            
+                <a href="../../JavaScript/">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../JavaScript/2018-04-14-JavaScriptGrammar.html">
+            
+                <a href="../../JavaScript/2018-04-14-JavaScriptGrammar.html">
+            
+                    
+                    2018-04-14. JavaScrip문법
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../JavaScript/2018-08-10_TypeScriptGrammar.html">
+            
+                <a href="../../JavaScript/2018-08-10_TypeScriptGrammar.html">
+            
+                    
+                    2018-08-10. TypeScript의 사용법 및 문법
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../Linux/">
+            
+                <a href="../../Linux/">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../Linux/LocaleError.html">
+            
+                <a href="../../Linux/LocaleError.html">
+            
+                    
+                    2019-06-15. localeError해결방법
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../plugin/">
+            
+                <a href="../../plugin/">
+            
+                    
+                    ETC
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../plugin/VScode_Plugin.html">
+            
+                <a href="../../plugin/VScode_Plugin.html">
+            
+                    
+                    2019-08-08. VScode plugin 소개
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >2018-08-05. Project의 구조</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="express-project-&#xAD6C;&#xC870;">Express Project &#xAD6C;&#xC870;</h1>
+<p>express &#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xB97C; &#xD560; &#xACBD;&#xC6B0;, &#xB0B4;&#xAC00; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xD504;&#xB85C;&#xC81D;&#xD2B8; &#xAD6C;&#xC870;&#xB85C; &#xC0AC;&#xC6A9;&#xC790;&#xBCC4;&#xB85C; &#xCC9C;&#xCC28;&#xB9CC;&#xBCC4;&#xC774;&#xB2C8; &#xCC38;&#xACE0;&#xB9CC; &#xD558;&#xAE30;&#xB97C; &#xBC14;&#xB780;&#xB2E4;. ( /&#xC73C;&#xB85C; &#xC2DC;&#xC791;&#xD558;&#xB294; &#xBD80;&#xBD84;&#xC740; &#xB514;&#xB809;&#xD1A0;&#xB9AC;&#xB97C; &#xC758;&#xBBF8;&#xD55C;&#xB2E4;.)</p>
+<h2 id="&#xAD6C;&#xC870;">&#xAD6C;&#xC870;</h2>
+<ul>
+<li>/<ul>
+<li>/src<ul>
+<li>/model<ul>
+<li>/domains ...<ul>
+<li>domain.model</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>/router<ul>
+<li>/domain ...<ul>
+<li>domain.controller</li>
+<li>index</li>
+</ul>
+</li>
+<li>index</li>
+</ul>
+</li>
+<li>/service<ul>
+<li>/domain ...<ul>
+<li>domain.service</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>/middleware<ul>
+<li>middleware ...</li>
+<li>index</li>
+</ul>
+</li>
+<li>/util<ul>
+<li>util ...</li>
+<li>index</li>
+</ul>
+</li>
+<li>index</li>
+<li>express(option)</li>
+</ul>
+</li>
+<li>/config<ul>
+<li>config.json</li>
+</ul>
+</li>
+<li>settingfile</li>
+</ul>
+</li>
+</ul>
+<h3 id="src">/src</h3>
+<p>&#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xC758; source&#xD30C;&#xC77C;&#xC774; &#xC788;&#xB294; &#xB514;&#xB809;&#xD1A0;&#xB9AC;&#xB85C; &#xBE4C;&#xB4DC;&#xB97C; &#xD558;&#xC9C0; &#xC54A;&#xC740; &#xC0C1;&#xD0DC;&#xC758; &#xCF54;&#xB4DC;&#xAC00; &#xC788;&#xB294; &#xCF54;&#xB4DC;&#xB4E4;&#xC774;&#xB2E4;. &#xC774; &#xB514;&#xB809;&#xD1A0;&#xB9AC; &#xB0B4;&#xBD80;&#xC5D0; &#xC788;&#xB294; &#xD30C;&#xC77C;&#xC740; index&#xD30C;&#xC77C;&#xACFC; express&#xD30C;&#xC77C;&#xC774; &#xC874;&#xC7AC;&#xD55C;&#xB2E4;</p>
+<ul>
+<li>index : &#xAC00;&#xC7A5; &#xAE30;&#xBCF8;&#xC774; &#xB418;&#xB294; &#xB8E8;&#xD2B8; &#xD30C;&#xC77C;&#xB85C; &#xC774;&#xACF3;&#xC5D0;&#xC11C; express&#xB97C; &#xB744;&#xC6B0;&#xACE0;, DB&#xB97C; &#xCEE4;&#xB125;&#xC158;&#xD558;&#xB294;&#xB4F1; &#xAE30;&#xBCF8;&#xC801;&#xC778; &#xC124;&#xC815;&#xC744; &#xD574;&#xC8FC;&#xB294; &#xACF3;&#xC774;&#xB2E4;</li>
+<li>express : express&#xB97C; &#xC0AC;&#xC6A9;&#xC2DC; &#xBBF8;&#xB4E4;&#xC6E8;&#xC5B4;&#xAC00; &#xB9CE;&#xB358;&#xAC00; &#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C; &#xD3EC;&#xD568;&#xD574;&#xC57C;&#xD558;&#xB294; &#xBD80;&#xBD84;&#xC774; &#xB9CE;&#xB2E4;&#xACE0; &#xB290;&#xAEF4;&#xC9C8;&#xB54C; &#xCD94;&#xAC00;&#xB418;&#xB294; &#xACF3;&#xC774;&#xB2E4;.</li>
+</ul>
+<h3 id="srcmodel">/src/model</h3>
+<p>ORM&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xACBD;&#xC6B0; &#xD544;&#xC694;&#xD55C; &#xBD80;&#xBD84;&#xC73C;&#xB85C; ORM&#xC5D0;&#xC11C; model&#xC815;&#xC758;&#xBD80;&#xBD84;&#xC744; &#xB2F4;&#xB2F9;&#xD55C;&#xB2E4;. &#xC774;&#xBD80;&#xBD84;&#xC740; ORM&#xBCC4;&#xB85C; &#xB2E4; &#xD2C0;&#xB824; &#xC790;&#xC138;&#xD55C; &#xC124;&#xBA85;&#xC740; &#xC0DD;&#xB7B5;&#xD55C;&#xB2E4;</p>
+<h3 id="srcrouter">/src/router</h3>
+<p>&#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xC758; router&#xB97C; &#xB2F4;&#xB2F9;&#xD558;&#xB294; &#xB514;&#xB809;&#xD1A0;&#xB9AC;&#xB85C; &#xD558;&#xC704; &#xD3F4;&#xB354;&#xC5D0; controller&#xB97C; &#xB2F4;&#xB2F9;&#xD558;&#xB294; &#xCF54;&#xB4DC;&#xB97C; &#xC791;&#xC131;&#xC744; &#xD558;&#xACE0;, &#xD558;&#xC704;&#xD3F4;&#xB354;&#xC5D0;&#xC11C; &#xAC12;&#xC744; &#xBD88;&#xB7EC;&#xC640;&#xC11C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.</p>
+<h3 id="srcrouterdomain-">/src/router/domain ...</h3>
+<p>domain&#xD3F4;&#xB354;&#xB294; &#xB3C4;&#xBA54;&#xC778;&#xBCC4;&#xB85C; &#xB9CC;&#xB4E4;&#xBA70;, &#xC608;&#xC2DC;&#xB85C; domain&#xB77C;&#xACE0; &#xB9CC;&#xB4E4;&#xC5C8;&#xB2E4;</p>
+<ul>
+<li>index : &#xC774;&#xACF3;&#xC5D0;&#xC11C; &#xB77C;&#xC6B0;&#xD305;&#xC744; &#xD55C;&#xD6C4; export&#xB97C; &#xD558;&#xAC70;&#xB098; class&#xC758; instance&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4; export&#xD574;&#xC900;&#xB2E4;.</li>
+<li>domain.controller : &#xD074;&#xB798;&#xC2A4; &#xD615;&#xC2DD;&#xC73C;&#xB85C; &#xD558;&#xB294;&#xACBD;&#xC6B0; &#xC0DD;&#xC131;&#xC790;&#xC5D0;&#xC11C; routing&#xC744; &#xD574;&#xC8FC;&#xBA70;, &#xC544;&#xB2CC;&#xACBD;&#xC6B0; export&#xB9CC;&#xD574;&#xC900;&#xB2E4;. controller&#xC5D0;&#xC11C;&#xB294; &#xC778;&#xC790;&#xAC12; mapping&#xB9CC; &#xD574;&#xC11C; service&#xD568;&#xC218;&#xB97C; &#xD638;&#xCD9C;&#xD558;&#xC5EC; &#xC0AC;&#xC6A9;&#xC744; &#xD574;&#xC900;&#xB2E4;.</li>
+</ul>
+<h3 id="srcservicedomain-">/src/service/domain ...</h3>
+<p>service&#xD3F4;&#xB354;&#xB294; &#xB3C4;&#xBA54;&#xC778;&#xBCC4;&#xB85C; &#xB9CC;&#xB4DC;&#xB294; &#xAC83;&#xC744; &#xAE30;&#xBCF8;&#xC73C;&#xB85C; &#xD558;&#xBA70;, &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; &#xD544;&#xC694;&#xD55C;&#xACBD;&#xC6B0; &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xB3C4; &#xB41C;&#xB2E4;. service&#xB85C;&#xC9C1;&#xC740; req&#xB098; res&#xB97C; &#xC778;&#xC790;&#xAC12;&#xC73C;&#xB85C; &#xBC1B;&#xC9C0; &#xC54A;&#xB3C4;&#xB85D; &#xB178;&#xB825;&#xD558;&#xBA70;, &#xC77C;&#xBC18;&#xC801;&#xC778; &#xD568;&#xC218;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4; Test Code&#xB97C; &#xB9CC;&#xB4E4;&#xAE30; &#xC27D;&#xAC8C; &#xB9CC;&#xB4E0;&#xB2E4;. &#xB9CC;&#xC57D; controller&#xB85C;&#xC9C1;&#xC5D0;&#xC11C; Test&#xB97C; &#xD558;&#xBA74; &#xD1B5;&#xD569;&#xD14C;&#xC2A4;&#xD2B8;&#xB97C; &#xD558;&#xAC8C; &#xB418;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; Unit&#xD14C;&#xC2A4;&#xD2B8;&#xB97C; &#xC704;&#xD574;&#xC11C;&#xB294; service&#xB85C;&#xC9C1;&#xC744; &#xBD84;&#xB9AC;&#xD574;&#xC8FC;&#xB294;&#xAC8C; &#xC88B;&#xB2E4;.</p>
+<h3 id="srcmiddleware">/src/middleware</h3>
+<p>middleware&#xB294; Error&#xCC98;&#xB9AC;&#xB098; &#xC778;&#xC99D;&#xC744; &#xD558;&#xAE30;&#xC704;&#xD55C; &#xBD80;&#xBD84;&#xC73C;&#xB85C; &#xD568;&#xC218;&#xBCC4;&#xB85C; &#xD30C;&#xC77C;&#xC744; &#xB9CC;&#xB4E4;&#xC5B4;&#xC11C; &#xCC98;&#xB9AC;&#xB97C; &#xD574;&#xC900;&#xB2E4;. &#xC774;&#xB54C; Error&#xCC98;&#xB9AC;&#xB294; Error &#xD074;&#xB798;&#xC2A4;&#xB97C; &#xC0C1;&#xC18D;&#xBC1B;&#xC544; &#xC0AC;&#xC6A9;&#xD558;&#xBA74; &#xCD94;&#xAC00;&#xC801;&#xC778; &#xB370;&#xC774;&#xD130;&#xB97C; &#xBC1B;&#xC744;&#xC218; &#xC788;&#xB2E4;.(logger&#xC758; &#xB370;&#xC774;&#xD130; &#xC870;&#xC791;&#xC774; &#xD544;&#xC694;&#xD55C; &#xACBD;&#xC6B0;&#xB3C4; &#xC788;&#xB2E4;)</p>
+<h3 id="srcutil">/src/util</h3>
+<p>test Case&#xB098; &#xB2E4;&#xB978; &#xCF54;&#xB4DC;&#xC5D0;&#xC11C; &#xBC18;&#xBCF5;&#xB418;&#xB294; &#xBD80;&#xBD84;&#xC744; &#xBAA8;&#xC544;&#xB454; &#xBD80;&#xBD84;&#xC73C;&#xB85C; &#xD074;&#xB798;&#xC2A4;&#xB098; &#xB2E4;&#xB978;&#xACF3;&#xC5D0; &#xB450;&#xAE30; &#xC598;&#xB9E4;&#xD55C; &#xCF54;&#xB4DC;&#xAC00; &#xC790;&#xB9AC;&#xD55C;&#xB2E4;. &#xD611;&#xC5C5;&#xC744; &#xD558;&#xB294;&#xACBD;&#xC6B0; util&#xC5D0; &#xC788;&#xB294; &#xCF54;&#xB4DC;&#xB294; &#xBB38;&#xC11C;&#xD654;&#xAC00; &#xD544;&#xC218;&#xC774;&#xB2E4;.</p>
+<h3 id="config">/config</h3>
+<p>DB&#xC811;&#xC18D;&#xC815;&#xBCF4;&#xB098; &#xCF54;&#xB4DC;&#xC758; &#xC124;&#xC815;&#xC774; &#xC788;&#xB294; json&#xD30C;&#xC77C;&#xB4E4;&#xC758; &#xBAA8;&#xC74C;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Express">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2019-08-07_Express_ErrorAndRoute_Process.html" class="navigation navigation-next " aria-label="Next page: 2018-08-07. Error와 Route 처리">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2018-08-05. Project의 구조","level":"1.6.4.1","depth":3,"next":{"title":"2018-08-07. Error와 Route 처리","level":"1.6.4.2","depth":3,"path":"NodeJs/Express/2019-08-07_Express_ErrorAndRoute_Process.md","ref":"NodeJs/Express/2019-08-07_Express_ErrorAndRoute_Process.md","articles":[]},"previous":{"title":"Express","level":"1.6.4","depth":2,"path":"NodeJs/Express/README.md","ref":"NodeJs/Express/README.md","articles":[{"title":"2018-08-05. Project의 구조","level":"1.6.4.1","depth":3,"path":"NodeJs/Express/2019-08-05_ExpressProject구조.md","ref":"NodeJs/Express/2019-08-05_ExpressProject구조.md","articles":[]},{"title":"2018-08-07. Error와 Route 처리","level":"1.6.4.2","depth":3,"path":"NodeJs/Express/2019-08-07_Express_ErrorAndRoute_Process.md","ref":"NodeJs/Express/2019-08-07_Express_ErrorAndRoute_Process.md","articles":[]},{"title":"Sequelize_Library_Directions","level":"1.6.4.3","depth":3,"path":"NodeJs/Express/Sequelize_Library_Directions/README.md","ref":"NodeJs/Express/Sequelize_Library_Directions/README.md","articles":[{"title":"2018-08-09. Sequelzie Library의 사용법 1","level":"1.6.4.3.1","depth":4,"path":"NodeJs/Express/Sequelize_Library_Directions/2018-08-09_Sequelize_Library_Directions_1.md","ref":"NodeJs/Express/Sequelize_Library_Directions/2018-08-09_Sequelize_Library_Directions_1.md","articles":[]},{"title":"2018-08-12. Sequelzie Library의 사용법 2","level":"1.6.4.3.2","depth":4,"path":"NodeJs/Express/Sequelize_Library_Directions/2018-08-12_Sequelize_Library_Directions_2.md","ref":"NodeJs/Express/Sequelize_Library_Directions/2018-08-12_Sequelize_Library_Directions_2.md","articles":[]},{"title":"2018-08-14. Sequelzie Library의 사용법 3","level":"1.6.4.3.3","depth":4,"path":"NodeJs/Express/Sequelize_Library_Directions/2018-08-14_Sequelize_Library_Directions_3.md","ref":"NodeJs/Express/Sequelize_Library_Directions/2018-08-14_Sequelize_Library_Directions_3.md","articles":[]}]},{"title":"sequelize-typescript_Library_Directions","level":"1.6.4.4","depth":3,"path":"NodeJs/Express/sequelize-typescript_Library_Directions/README.md","ref":"NodeJs/Express/sequelize-typescript_Library_Directions/README.md","articles":[{"title":"2018-08-11. sequelize-typescript Library의 사용법 1","level":"1.6.4.4.1","depth":4,"path":"NodeJs/Express/2018-08-11_sequelize-typescript_Library_Directions.md","ref":"NodeJs/Express/2018-08-11_sequelize-typescript_Library_Directions.md","articles":[]},{"title":"2018-08-13. sequelize-typescript Library의 사용법 2","level":"1.6.4.4.2","depth":4,"path":"NodeJs/Express/sequelize-typescript_Library_Directions/2018-08-13_sequelize-typescript_Library_Directions_2.md","ref":"NodeJs/Express/sequelize-typescript_Library_Directions/2018-08-13_sequelize-typescript_Library_Directions_2.md","articles":[]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"NodeJs/Express/2019-08-05_ExpressProject구조.md","mtime":"2019-08-09T12:24:11.559Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-08T09:45:35.627Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
