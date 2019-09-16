@@ -71,3 +71,4 @@
         - [ISSUE](AWS/CloudWatch/Issue.md)
     - [CodeBuild](AWS/CodeBuild/README.md)
         - [ISSUE](AWS/CodeBuild/Issue.md)
+    - [SystemsManagerParameterStore](/AWS/SystemsManagerParameterStore/README.md)
